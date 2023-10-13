@@ -1,0 +1,107 @@
+/* form.styles.css */
+
+/* Contenedor principal del formulario */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título del formulario */
+  .form-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Contenedor de cada campo de entrada */
+  .input-container {
+    margin-bottom: 15px;
+  }
+  
+  /* Etiqueta de cada campo de entrada */
+  .input-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo de los campos de entrada de texto y textarea */
+  .input-container input[type="text"],
+  .input-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Estilo del campo de fecha */
+  .input-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Estilo del campo de número */
+  .input-container input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Estilo del campo de selección múltiple */
+  .input-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Contenedor de botones */
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilo del botón de envío */
+  .button-container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Estilo del botón de reinicio */
+  .button-container .reset-button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Estilo del botón de reinicio cuando se le da clic */
+  .button-container .reset-button:active {
+    background-color: #999;
+  }
+  

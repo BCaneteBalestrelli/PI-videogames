@@ -1,0 +1,46 @@
+/* Estilos para el container principal del Navbar */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interior */
+  }
+ 
+  /* Estilos para el container de selección de orden ascendente/descendente */
+  .orderAsc-container {
+    /* Agrega tus estilos específicos aquí */
+    border: 2px solid #d6c689;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el container de selección de orden por rating */
+  .orderBy-container {
+    /* Agrega tus estilos específicos aquí */
+    border: 2px solid #d6c689;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el container del botón "Create game" */
+  .formButton-container {
+    /* Agrega tus estilos específicos aquí */
+    border: 2px solid #d6c689;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón "Reset Filters" */
+  .reset-button {
+    /* Agrega tus estilos específicos aquí */
+    border: 2px solid #d6c689;
+    padding: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  

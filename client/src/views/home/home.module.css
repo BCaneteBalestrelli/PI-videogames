@@ -1,0 +1,17 @@
+/* Estilos para el contenedor principal */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el contenedor de la barra de navegación */
+  
+  .bottom-container {
+    margin-top: 20px;
+  }
+  
+
+  
+  

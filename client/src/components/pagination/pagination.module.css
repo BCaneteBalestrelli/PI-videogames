@@ -1,0 +1,25 @@
+/* Estilos para el contenedor de navegación */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Estilos para los botones de paginación */
+.buttonStyles {
+  background-color: #007bff; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none;
+  border-radius: 50%; /* Botones redondeados */
+  width: 40px; /* Ancho del botón */
+  height: 40px; /* Altura del botón */
+  margin: 0 5px; /* Espaciado entre botones */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer;
+}
+
+/* Estilos para el botón de página activa */
+.buttonStyles.active {
+  background-color: #333; /* Color de fondo cuando está activo */
+}
